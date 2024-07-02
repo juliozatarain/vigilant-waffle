@@ -9,7 +9,7 @@ final class SearchWebService: SearchWebServiceProtocol {
         static let baseUrl = "https://api.waqi.info/search/"
         static let method = "GET"
         static let tokenQueryParamName = "token"
-        static let tokenQueryParamValue = "86eecd7b5c8f75e202981f8700da49b7627e598e"
+        static let tokenQueryParamValue = "demo"
         static let keywordQueryParamName = "keyword"
     }
 

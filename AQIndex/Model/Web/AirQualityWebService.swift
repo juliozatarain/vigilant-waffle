@@ -10,7 +10,7 @@ final class AirQualityWebService: AirQualityWebServiceProtocol {
         static let baseUrl = "https://api.waqi.info/feed/"
         static let method = "GET"
         static let tokenQueryParamName = "token"
-        static let tokenQueryParamValue = "86eecd7b5c8f75e202981f8700da49b7627e598e"
+        static let tokenQueryParamValue = "demo"
     }
 
     let urlSession = URLSession.shared
